@@ -1,0 +1,9 @@
+//Funções com parametros
+
+torrar("pão de forma", "Fernando", 8.90)
+
+function torrar(pao, nome = "cliente", valor){
+    console.log(`torrada feita com ${pao}`)
+    console.log(`ela é um pedido de ${nome}`)
+    console.log(`O valor total é ${valor}`)
+}
