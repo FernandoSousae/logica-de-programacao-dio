@@ -1,9 +1,29 @@
 //Funções com parametros
 
-torrar("pão de forma", "Fernando", 8.90)
+/*torrar("pão de forma", "Fernando", 8.90)
 
 function torrar(pao, nome = "cliente", valor){
     console.log(`torrada feita com ${pao}`)
     console.log(`ela é um pedido de ${nome}`)
     console.log(`O valor total é ${valor}`)
+}*/
+
+//Funções com retorno
+
+/*let resultado = soma(5 ,6)
+
+function soma(numA, numB){
+    let somatorio = numA + numB
+    return somatorio
+}
+
+console.log(resultado)*/
+let userName = getFirstName("abreu-vofadg-asdgasdg", "-")
+
+console.log(`Seja bem vindo ${userName}`)
+
+
+function getFirstName(name, splitChar){
+    let firstName = name.split(splitChar)[0]
+    return firstName
 }
